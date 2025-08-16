@@ -5,7 +5,7 @@
 I'm a **3rd-year Computer Science Engineering student** with an interest in **Cybersecurity**, built and deployed full-stack projects. My goal is to become a **Security Analyst**.
 
 🎯 **Current Focus**: Building innovative projects for my goal.  
-🐍 **Primary Language**: Next.js for full-stacks and C++ for DSA.  
+⚫ **Primary Language**: Next.js for full-stacks and C++ for DSA.  
 📚 **Beyond Code**: Gamer, gym enthusiast, and gaming montage editor.  
 
 ---
@@ -71,6 +71,7 @@ A real-time **messaging and voice chat application** that works without login, f
 ---
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=s-uryansh&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=s-uryansh&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=s-uryansh&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact&hide=jupyter%20notebook)
+![](https://github-readme-stats.vercel.app/api?username=s-uryansh&theme=transparent&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=s-uryansh&theme=transparent&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=s-uryansh&theme=transparent&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
