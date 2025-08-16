@@ -2,7 +2,7 @@
 
 🎓 B.Tech Undergraduate in **Computer Science**  
 💻 Fullstack Developer | 🌐 Cybersecurity Enthusiast  
-🧹 I like writing **clean, maintainable code**  
+An enthusiastic full-stack developer who can create scalable web apps and has a keen interest in cybersecurity.
 
 ---
 
@@ -15,18 +15,18 @@
 ---
 
 ## 🧑‍💻 Tech Stack
-- **Languages:** JavaScript, TypeScript, Python, C++  
-- **Frontend:** React.js, Tailwind CSS  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB, MySQL  
+- **Languages:** JavaScript, TypeScript, C++  
+- **Frontend:** React.js, Next.js  
+- **Backend:** Go  
+- **Database:** MongoDB, MySQL, Neo4j  
 - **Other:** Git, Docker, REST APIs, Linux  
 
 ---
 
 ## 📌 Featured Projects
-- 🔗 [GladMeds](https://github.com/s-uryansh/GladMeds) — Fullstack project with MongoDB & Mongoose models  
-- ⚡ Research: **MorphDAG** — Blockchain optimization with per-account frequency-based classification  
-- 🕹️ Side fun: Small indie games & experiments with algorithms  
+- 🔗 [GladMeds](https://github.com/s-uryansh/GladMeds) — An AI-powered medical and emergency assistant that delivers smart health advice, urgent care tools, and privacy-first health data management.  
+- ⚡ Research: **MorphDAG** — Blockchain optimization with per-account frequency-based classification.
+- 🔗 [portayourPCB](https://github.com/s-uryansh/PortayourPCB) — A full-stack WebApp made for a startup.
 
 ---
 
