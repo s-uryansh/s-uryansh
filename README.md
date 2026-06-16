@@ -77,7 +77,7 @@ By introducing **per-account read/write frequency classification**, OPT-MorphDAG
 
 ---
 
-<!-- # 📊 GitHub Stats:
+# 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=s-uryansh&theme=transparent&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=s-uryansh&theme=transparent&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=s-uryansh&theme=transparent&hide_border=false&layout=compact&hide=Jupyter%20Notebook) -->
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=s-uryansh&theme=transparent&hide_border=false&layout=compact&hide=Jupyter%20Notebook)
