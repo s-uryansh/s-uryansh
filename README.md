@@ -1,72 +1,50 @@
-# Hi there, I'm Suryansh Rohil! 👋
+# Hi, I'm Suryansh Rohil 👋
 
-## About Me
-Full-Stack Engineer | Backend Systems | Security-Focused Development | [Portfolio](https://s-uryansh.vercel.app/)
+**Backend & Systems Engineer · Security Research** · [Portfolio](https://s-uryansh.vercel.app/)
 
-I build scalable backend systems and full-stack applications with a strong focus on performance, reliability, and security.
+I build backend systems in Go and C/C++, and research security at the kernel and binary level. Security is a design input, not a patch.
 
-- Backend-first engineer with production deployment experience
-- Comfortable designing APIs, distributed systems, and data flows
-- Apply security thinking to system design, not as an afterthought
-  
-📚 **Beyond Code**: Gamer, gym enthusiast, and gaming montage editor.  
+- Shipped a 10-module warehouse inventory and dispatch system for a live enterprise client
+- Co-authored an IEEE paper on parallel blockchain execution (4.3x throughput)
+- Merged PRs in [freellmapi](https://github.com/tashfeenahmed/freellmapi) and Epic Games' [PixelStreamingInfrastructure](https://github.com/EpicGames/PixelStreamingInfrastructure)
+- Focus: eBPF, TPM attestation, binary analysis, post-quantum migration
 
-
----
-
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/suryansh.rohil/) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suryansh-rohil-982a21270/) 
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:suryanshrohilwork@gmail.com)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suryansh-rohil-982a21270/)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:suryanshrohilwork@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/suryansh.rohil/)
 
 ---
 
-# 💻 Tech Stack:
-## Languages
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white) 
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=plastic&logo=go&logoColor=white) 
-## Hosting
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=plastic&logo=vercel&logoColor=white) 
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=plastic&logo=google-cloud&logoColor=white) 
-![Railway](https://img.shields.io/badge/railway-0B0D0E.svg?style=plastic&logo=railway&logoColor=white)
 
-## Frameworks, Platforms and Libraries
-![Next.js](https://img.shields.io/badge/next.js-000000?style=plastic&logo=nextdotjs&logoColor=white) 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB)
-![NestJS](https://img.shields.io/badge/nestjs-ea2845.svg?style=plastic&logo=nestjs&logoColor=white) 
+## Featured Projects
 
-## Databases
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=plastic&logo=redis&logoColor=white) 
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white)
+### [CipherFault](https://github.com/s-uryansh/CipherFault)
+Crypto-usage evidence engine for compiled binaries. Ghidra P-code lifting plus a GNN recognizer for classical and post-quantum primitives. Deterministic taint engine emits CWE-mapped facts with provenance paths. CycloneDX 1.6 CBOM output. Trained on a 9,295-binary corpus across GCC/Clang, x86_64/AArch64.
 
-## Tools & System
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=plastic&logo=postman&logoColor=white)
-![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?style=plastic&logo=arch-linux&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/kali%20Linux-1793D1?style=plastic&logo=kali-linux&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-1793D1?style=plastic&logo=docker&logoColor=white)
----
+### [vanguard-linux-poc](https://github.com/s-uryansh/vanguard-linux-poc)
+Hardware-anchored attestation for Linux. TPM2 quote bound to TLS session (RFC 9266) closes relay attacks. eBPF-LSM monitors kernel module loads and ptrace. Verified ALLOW/DENY on Secure Boot on/off hosts.
 
-# Featured Projects
-### [GradPQC](https://github.com/s-uryansh/GradPQC)
-🔗 [GitHub](https://github.com/s-uryansh/GradPQC)  
-An automated **Cryptographic Inventory & Governance Platform** built for the PNB PSB Hackathon 2026. It features a high-performance **Go backend** to scan network perimeters, uncover hidden subdomains via CT logs, and calculate **Quantum Migration Risk Scores (QMRS)**. Helps organizations plan their transition to Post-Quantum Cryptography (PQC) using NIST-aligned "Runway" metrics.
-
----
 ### [GradGuard](https://github.com/s-uryansh/GradGuard)
-🔗 [GitHub](https://github.com/s-uryansh/GradGuard)  
-An adaptive, high-interaction SSH Honeypot engine built in Go. It utilizes in-memory Machine Learning (Logistic Regression & Anomaly Detection) to profile attacker intent in real-time. When a threat is detected, the system executes active deception by dynamically patching the Docker container's environment to spoof bare-metal hardware and injecting terminal latency to frustrate automated tools. Includes a built-in Network Sinkhole to trap outbound malware requests and a forensic dashboard for deep-dive session analysis.
+Adaptive SSH honeypot in pure Go. Ephemeral Docker container per session. ML (Logistic Regression, Naive Bayes, anomaly detection) trained on 170MB+ of Cowrie/CIC-IDS/NSL-KDD scores intent live. Mutates the environment to defeat fingerprinting. eBPF `execve` tracing, egress sinkhole, AWS honeytokens.
+
+### [GradPQC](https://github.com/s-uryansh/GradPQC)
+Cryptographic inventory and governance platform. Go scanner, CT-log subdomain discovery, Quantum Migration Risk Scores. PNB PSB Hackathon 2026.
+
+### [OPT-MorphDAG](https://github.com/s-uryansh/OPT-MorphDAG)
+Conflict-aware parallel transaction scheduler for DAG blockchains. [IEEE paper](https://ieeexplore.ieee.org/document/11310865/).
+
+### [GradLedger](https://github.com/s-uryansh/GradLedger) · [GladMeds](https://gladmeds.vercel.app/) · [PortaYourPCB](https://portayourpcb.vercel.app/)
+Blockchain alumni mentorship platform. · AI healthcare and emergency app. · Live full-stack platform for a startup.
 
 ---
 
-### [GladMeds](https://gladmeds.vercel.app/)  
-🔗 [GitHub](https://github.com/s-uryansh/GladMeds)  
-AI-powered medical and emergency assistant that delivers **smart health advice**, **urgent care tutorials**, and **Easy access to health profile when needed**.  
+## Open Source
+- **freellmapi**: admin hardening. Stricter CSP, per-IP rate limiting, password-gated key export ([#498](https://github.com/tashfeenahmed/freellmapi/pull/498))
+- **PixelStreamingInfrastructure**: opt-in streamer token auth on signalling server
+- **MorphDAG**: benchmarking feature
 
----
-### [PortaYourPCB](https://portayourpcb.vercel.app/)  
-🔗 [GitHub](https://github.com/s-uryansh/PortayourPCB)  
-A fully functional and live **full-stack platform** built for a startup.
+## Achievements
+🥇 Smart SNU Hackathon '25 · 📄 IEEE 2025
 
 ---
 
